@@ -1,0 +1,74 @@
+{
+    "path_count": 269,
+    "parsed_path_count": 269,
+    "static_analysis_path_count": 16,
+    "static_analysis_parsed_path_count": 8,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.03088313399999265,
+    "load_macros_elapsed": 1.1092542650000041,
+    "parse_project_elapsed": 1.0687856659999966,
+    "patch_sources_elapsed": 0.007090946999994685,
+    "process_manifest_elapsed": 0.15178426899998954,
+    "load_all_elapsed": 2.511373676000005,
+    "projects": [
+        {
+            "project_name": "jaffle_shop",
+            "elapsed": 1.0460021130000143,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.3218042530000105,
+                    "parsed_path_count": 16
+                },
+                {
+                    "parser": "seed",
+                    "elapsed": 0.13915716599998973,
+                    "parsed_path_count": 6
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.5794877369999938,
+                    "parsed_path_count": 13
+                }
+            ],
+            "parsed_path_count": 35
+        },
+        {
+            "project_name": "dbt_duckdb",
+            "elapsed": 0.005201259999978447,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0046928200000024844,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.0003455949999988661,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        },
+        {
+            "project_name": "dbt_date",
+            "elapsed": 0.003915309999968031,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt_utils",
+            "elapsed": 0.0038260530000115978,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "audit_helper",
+            "elapsed": 0.004937447000003203,
+            "parsers": [],
+            "parsed_path_count": 0
+        }
+    ]
+}
