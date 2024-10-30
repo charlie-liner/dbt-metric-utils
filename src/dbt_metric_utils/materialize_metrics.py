@@ -1,4 +1,5 @@
 import re
+from datetime import datetime
 from typing import Dict, List, Tuple
 
 import yaml
@@ -29,6 +30,12 @@ def dbt_metric_utils_materialize(
     global new_dbt_vars
     global materialized_metric_dependencies
     global mf
+
+    if time_start is not None:
+        time_start = datetime.strptime(time_start, "%Y-%m-%d")
+    
+    if time_end is not None:
+        time_end = datetime.strptime(time_end, "%Y-%m-%d")
 
     mf_request = MetricFlowQueryRequest.create_with_random_request_id(
         metric_names=metrics,
